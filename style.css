@@ -1,3 +1,18 @@
 body{
-    background-color: rgb(17, 161, 171);
+    background-color:#dfebff;
+}
+
+#presentacion{
+    height: 90vh;
+    display-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar{
+    background-color:#1a1e4c;
+}
+
+#botoncontacto{
+    background-color:#353ecd;
 }
