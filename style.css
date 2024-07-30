@@ -4,7 +4,7 @@ body{
 
 #presentacion{
     height: 90vh;
-    display-flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
 }
@@ -15,4 +15,22 @@ body{
 
 #botoncontacto{
     background-color:#353ecd;
+}
+
+.proyecto{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+#proyecto-1{
+    background-image: url('assets/clongoogle.png');
+}
+
+#proyecto-2{
+    background-image: url('assets/pagina.png');
+}
+
+#proyecto-3{
+    background-image: url('assets/Portafolio.png');
 }
