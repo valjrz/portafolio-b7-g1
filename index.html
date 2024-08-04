@@ -19,7 +19,7 @@
 <body>
     <!--cabecera de mi pagina -->
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Valeria</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,24 +49,28 @@
 
     <main>
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-            <!-- quitamos reverse en caso de que no queramos imagen y tambien quitamos div de imagen  -->
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Valeria Sosa
-                </h1>
-                <p class="lead">Me llamo Valeria, soy estudiante de ingeniería de software y tengo un gran gusto por
-                    el deporte. Me apasiona combinar mis habilidades técnicas con un estilo de vida activo para
-                    mantener un equilibrio saludable entre el estudio y el bienestar físico.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-lg px-4 me-md-2 text-white" id="botoncontacto"
-                        fdprocessedid="oyo7kn">Contactame</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4"
-                        fdprocessedid="zem37d">valesosa838@gmail.com</button>
+        <section id="presentacion" class="container-fluid">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-lg-6 p-3">
+                        <h1 id="app" class="display-5 fw-bold text-white">
+                            Valeria Sosa
+                        </h1>
+                        <p class="lead text-white">Me llamo Valeria, soy estudiante de ingeniería de
+                            software y tengo un gran gusto
+                            por
+                            el deporte. Me apasiona combinar mis habilidades técnicas con un estilo de vida activo para
+                            mantener un equilibrio saludable entre el estudio y el bienestar físico.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+                            <button type="button"
+                                class="btn btn-outline-secondary btn-lg px-4">valesosa838@gmail.com</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+
         </section>
 
 
@@ -78,8 +82,8 @@
 
                 <div class="feature col">
                     <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-code-square"></i>
+                        class="d-inline-flex align-items-center justify-content-center icono fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-code-square icono"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
                     <p>Conocimientos en HTML, JS, CSS.</p>
@@ -87,20 +91,20 @@
 
                 <div class="feature col">
                     <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-people"></i>
+                        class="d-inline-flex align-items-center justify-content-center icono fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-people icono"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
-                    <p>Colaboro con equipos multidisciplinarios.</p>
+                    <p>Valoro profundamente el trabajo en equipo y la colaboración.</p>
                 </div>
 
                 <div class="feature col">
                     <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-award"></i>
+                        class="d-inline-flex align-items-center justify-content-center icono fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-award icono"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
-                    <p>Compromiso por mis responsabilidades.</p>
+                    <p>Soy una persona altamente responsable y comprometida con cada tarea que realizo.</p>
                 </div>
 
 
@@ -113,16 +117,16 @@
         <section id="Proyectos" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Mis proyectos</h2>
 
-<!-- row-cols-lg- 3 la cantidad de los que se dividen los cuadritos -->
+            <!-- row-cols-lg- 3 la cantidad de los que se dividen los cuadritos -->
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                
+
 
                 <div class="col">
-                   
+
                     <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                       
+
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            
+
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon De Google</h3>
 
                         </div>
@@ -130,11 +134,11 @@
                 </div>
 
                 <div class="col">
-                   
+
                     <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                       
+
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            
+
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Página Personal</h3>
 
                         </div>
@@ -142,11 +146,11 @@
                 </div>
 
                 <div class="col">
-                   
+
                     <div id="proyecto-3" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                       
+
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            
+
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi Portafolio</h3>
 
                         </div>
@@ -156,55 +160,34 @@
         </section>
 
         <section id="testimonioscarousel">
-            <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                        aria-label="Slide 1" aria-current="true"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                        class=""></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
-                        class=""></button>
-                </div>
+            <div id="myCarousel" class="carousel carousel-dark slide mb-6 pointer-event bg" data-bs-theme="dark"
+                data-bs-ride="carousel">
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/david.avif" height="100">
+                            <h3 class="my-3">David Romano </h3>
+                            <p>Excelente estudiante, se desempeña de manera extraodinaria en todos
+                                los campos que involucra una ingenieria. </p>
+
+                        </article>
                     </div>
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/kat.png" height="100">
+                            <h3 class=" my-3">Kat Echazarreta</h3>
+                            <p>Valeria sin duda es la mejor!</p>
+
+                        </article>
                     </div>
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/ariana.png" height="100">
+                            <h3 class=" my-3"> Ariana Grande </h3>
+                            <p>Valeria es una persona comprometida</p>
+
+                        </article>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -220,15 +203,37 @@
 
     </main>
 
-    <footer class="py-3 my-4">
+    <footer id="Contacto" class="py-2">
+        <p class="mt-2 fs-3 text-center text-white texto-gigante">
+            <i class="bi bi-code"></i>
+        </p>
+        <h5 class="text-white text-center my-5">
+            "Cree en ti misma, incluso cuando nadie más lo haga; tus sueños valen la pena."
+        </h5>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item fs-3">
+                <a href="#" class="nav-link px-2 text-white">Home
+
+                </a>
+            </li>
+            <li class="nav-item fs-3">
+                <a href="https://github.com/valjrz" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-github text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-3">
+                <a href="https://www.linkedin.com/in/sosa-juarez-valeria-ab6ba32b6/" target="_blank"
+                    class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-linkedin text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-3">
+                <a href="https://www.instagram.com/val.sjrz/" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-instagram text-white"></i>
+                </a>
+            </li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center text-white">© 2024 By Valeria, Tecnolochicas PRO</p>
     </footer>
 
 
@@ -238,6 +243,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
+
+
+    <!-- codigo para la letra moviendose -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js">
+    </script>
+
+    <!-- conectar js -->
+    <script src="script.js"></script>
+
 </body>
 
 </html>

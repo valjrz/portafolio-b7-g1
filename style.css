@@ -1,26 +1,35 @@
 body{
     background-color:#dfebff;
+    
 }
 
 #presentacion{
     height: 90vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content:start;
     align-items: center;
+
+    background-image: url(assets/idea2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
 }
 
 .navbar{
-    background-color:#1a1e4c;
+    background-color: #000034;
 }
 
 #botoncontacto{
-    background-color:#353ecd;
+    background-color:#022485;
 }
 
 .proyecto{
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position:top;
+    
 }
 
 #proyecto-1{
@@ -33,4 +42,13 @@ body{
 
 #proyecto-3{
     background-image: url('assets/Portafolio.png');
+}
+
+#Contacto{
+    background-color: #000034;
+    
+}
+
+#icono{
+    background-color: #000034;
 }
